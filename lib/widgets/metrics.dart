@@ -4,6 +4,8 @@ import 'package:flutter_svg/flutter_svg.dart';
 import '../util/styles.dart';
 
 const _graphAssetName = 'assets/graph.svg';
+const minWeightNum = 0;
+const maxWeightNum = 350;
 
 class Metrics extends StatelessWidget {
   final String _labelText;
