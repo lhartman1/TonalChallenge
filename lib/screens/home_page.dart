@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../widgets/metrics.dart';
+
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
 
@@ -10,7 +12,7 @@ class HomePage extends StatelessWidget {
         title: const Text('Tonal Challenge'),
       ),
       body: const Center(
-        child: Text('Hello!'),
+        child: Metrics('Upper body', '45'),
       ),
     );
   }
